@@ -1,8 +1,8 @@
 import React from 'react';
 import ABo from '../../GuanKiann/ABo/ABo';
 import GuaGi from '../../GuanKiann/GuaGi/GuaGi';
-import Disqus from '../../Disqus/Disqus';
 import 分享鍵 from '../../GuanKiann/分享鍵/分享鍵';
+import 留言板 from '../../GuanKiann/留言板/留言板';
 import 其他建議 from './其他建議';
 import Debug from 'debug';
 
@@ -34,7 +34,7 @@ export default class 有講法 extends React.Component {
         來討論
         「<span className='ui pink header'>{this.props.華語關鍵字}</span>」
       </h3>
-      <Disqus pathname={this.props.pathname}/>
+      <留言板/>
     </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { list } from './config';
-import Disqus from '../../Disqus/Disqus';
+import 留言板 from '../../GuanKiann/留言板/留言板';
 import './Iong.css';
 
 export default class Iong extends React.Component {
@@ -30,7 +30,7 @@ export default class Iong extends React.Component {
             )
         }
         </div>
-        <Disqus pathname='/iong' />
+        <留言板 />
       </div>
     </div>
     );
